@@ -5,3 +5,8 @@ require_relative("../bears")
 MiniTest::Reporters.use! MiniTest::Reporters::SpecReporter.new
 
 class RiverTest < MiniTest::Test
+
+  def setup
+    @river = River.new("Amazon")
+  end
+end

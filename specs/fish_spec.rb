@@ -5,3 +5,5 @@ require_relative("../river")
 MiniTest::Reporters.use! MiniTest::Reporters::SpecReporter.new
 
 class FishTest < MiniTest::Test
+
+end
