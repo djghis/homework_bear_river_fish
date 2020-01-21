@@ -7,4 +7,16 @@ attr_reader :name, :type
     @type = type
     @stomach = []
   end
+
+
+  def fish_count()
+   return @stomach.length()
+  end
+
+  def eat_fish(fish)
+    @stomach.push(fish)
+  end
+  def roar
+    return "ROAR"
+  end
 end
