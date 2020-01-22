@@ -7,15 +7,16 @@ class River
   end
 
 def add_fish(fish)
-  @fish.push(fish)
+  @fishes.push(fish)
 end
 
 def fish_count()
- return @fish.count()
+ return @fishes.count()
 end
 
 def remove_fish()
-  @fish.pop
+  @fishes.pop
+  #@fish.shuffle().pop() will take a random fish
 end
 
 
